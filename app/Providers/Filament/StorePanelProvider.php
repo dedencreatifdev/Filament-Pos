@@ -27,6 +27,7 @@ class StorePanelProvider extends PanelProvider
             ->id('store')
             ->path('')
             ->login()
+            ->registration()
             // ->maxContentWidth('full')
             ->colors([
                 'primary' => Color::Amber,
